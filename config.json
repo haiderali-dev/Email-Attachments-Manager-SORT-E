@@ -1,0 +1,9 @@
+{
+    "theme": "light",
+    "default_imap_host": "mail2.multinet.com.pk",
+    "session_days": 90,
+    "real_time_monitoring": true,
+    "monitoring_interval": 30,
+    "progressive_batch_size": 200,
+    "progressive_commit_interval": 100
+}
