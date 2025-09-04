@@ -1,0 +1,58 @@
+# Core GUI Framework
+PyQt5>=5.15.0
+
+# Database
+mysql-connector-python>=8.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Security & Authentication
+bcrypt>=4.0.0
+cryptography>=3.4.0
+
+# Email Processing
+imap-tools>=1.0.0
+
+# System Monitoring
+psutil>=5.8.0
+
+# Standard Library Dependencies (included with Python)
+# The following are part of Python's standard library and don't need to be installed:
+# - datetime, timedelta
+# - os, sys
+# - re
+# - threading, queue, weakref
+# - typing, contextmanager
+# - smtplib, ssl
+# - email (email.message, email.policy, email.mime.*)
+# - random
+# - json
+# - time
+# - tempfile
+# - mimetypes
+# - html
+# - base64, quopri
+# - urllib.parse
+# - hashlib
+# - shutil
+# - collections (defaultdict)
+# - gc (garbage collector)
+# - traceback
+# - unittest
+# - webbrowser
+# - ipaddress
+
+# Development and Testing (Optional)
+# Uncomment if you plan to run tests or need development tools
+# unittest-xml-reporting>=3.2.0    # For XML test reports
+# coverage>=6.0                    # For code coverage analysis
+# pylint>=2.12.0                   # For code linting
+# black>=22.0                      # For code formatting
+# mypy>=0.910                      # For type checking
+
+# Production Deployment (Optional)
+# Uncomment if deploying to production
+# gunicorn>=20.1.0                 # For web server deployment
+# supervisor>=4.2.0                # For process management
+# loguru>=0.6.0                    # For enhanced logging

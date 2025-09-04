@@ -1,0 +1,62 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config.json
+.env
+.env.local
+
+# Encryption and security files
+secret.key
+*.key
+
+# Database configuration with credentials
+config/database.py
+
+# Attachments directory (if it contains sample/test data)
+# Uncomment the line below if attachments are not meant to be tracked
+# attachments/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Backup files
+*.bak
+*.backup
+
